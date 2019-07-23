@@ -7,14 +7,14 @@ First, you need to create a free/premium account at [www.screenshotmachine.com](
 
 Set-up your customer key and secret phrase (if needed) in the script:
 
-```perl5
+```perl
 my $customer_key = 'PUT_YOUR_CUSTOMER_KEY_HERE';
 my $secret_phrase = ''; # leave secret phrase empty, if not needed
 ```
 
 Set other options to fulfill your needs: 
 
-```perl5
+```perl
 my %options;
 # mandatory parameter
 $options{'url'} = 'https://www.google.com';
@@ -69,7 +69,7 @@ Generated ```api_url```  link can be placed in ```<img>``` tag or used in your b
 
 If you need to store captured screenshot as an image, just call:
 
-```perl5
+```perl
 # or save screenshot as an image
 my $lwp = LWP::UserAgent->new(agent=>'perl-client', cookie_jar=>{});
 my $output = 'output.png';

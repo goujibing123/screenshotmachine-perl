@@ -30,7 +30,7 @@ More info about options can be found in our [API guide](https://www.screenshotma
  Sample code
 -----
 
-```perl5
+```perl
 #!/usr/bin/perl
 use strict;
 use warnings;

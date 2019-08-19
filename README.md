@@ -24,8 +24,9 @@ $options{'device'} = 'desktop';
 $options{'format'} = 'png';
 $options{'cacheLimit'} = '0';
 $options{'delay'} = '200';
+$options{'zoom'} = '100';
 ```
-More info about options can be found in our [API guide](https://www.screenshotmachine.com/apiguide.php).  
+More info about options can be found in our [API doc](https://www.screenshotmachine.com/api.php).  
 
  Sample code
 -----
@@ -52,6 +53,7 @@ $options{'device'} = 'desktop';
 $options{'format'} = 'png';
 $options{'cacheLimit'} = '0';
 $options{'delay'} = '200';
+$options{'zoom'} = '100';
 
 my $api_url = $base_api_url . 'key=' . $customer_key;
 if ($secret_phrase ne "")

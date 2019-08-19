@@ -19,6 +19,7 @@ $options{'device'} = 'desktop';
 $options{'format'} = 'png';
 $options{'cacheLimit'} = '0';
 $options{'delay'} = '200';
+$options{'zoom'} = '100';
 
 my $api_url = $base_api_url . 'key=' . $customer_key;
 if ($secret_phrase ne "")
